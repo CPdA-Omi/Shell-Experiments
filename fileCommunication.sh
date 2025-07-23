@@ -3,10 +3,10 @@
 
 # Author : CPdA-Omi
 # Creation Date : may 18 2024
-# Last update : 05/21/2025 (MM/DD/YYYY)
+# Last update : 07/23/2025 (MM/DD/YYYY)
 
 author="CPdA-Omi"
-version="v1.3.0 - Kafey"
+version="v1.3.1 - Unkafey"
 project="Shell Experiments"
 
 displayVersion() {
@@ -73,11 +73,15 @@ guide() {
   |			All behaviour influence options will be prompted to you to clearly
   |			decide the parameters of your future session.
   |
+  |	KNOWN BUGS
+  |		When a private session is properly quitting the session, the previous message is
+  |		printed in every opened sessions. A buffer is needed to be set to prevent this.
+  |
   |	AUTHOR
   |		Written by CPdA-Omi.
   |
   |
-  |	v.1.3.0 - Kafey     May 2025
+  |	v.1.3.1 - Unkafey     May 2025
   |
   #==============================================================================================#
 "
@@ -122,6 +126,10 @@ $(border)
 $(border)	$(bold "-i"), $(bold "--interactive")
 $(border)		All behaviour influence options will be prompted to you to clearly
 $(border)		decide the parameters of your future session.
+$(border)
+$(border)$(bold "KNOWN BUGS")
+$(border)	When a private session is properly quitting the session, the previous message is
+$(border)	printed in every opened sessions. A buffer is needed to be set to prevent this.
 $(border)
 $(border)$(bold "AUTHOR")
 $(border)	Written by $(bold "$author").
