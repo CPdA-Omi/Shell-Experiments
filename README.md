@@ -1,10 +1,11 @@
 <div align="center">
 
-# Shell Experiments
+# :mag: Shell Experiments :pager:
 
-## Various little shell scripts with various utilities
+Various little shell scripts with various utilities
 
 </div>
+<br/>
 
 ## Description
 
