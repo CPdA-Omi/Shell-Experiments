@@ -6,7 +6,7 @@
 # Last update : 07/23/2025 (MM/DD/YYYY)
 
 author="CPdA-Omi"
-version="v1.3.1 - Unkafey"
+version="v1.3.2 - Deuxkafey"
 project="Shell Experiments"
 
 displayVersion() {
@@ -81,7 +81,7 @@ guide() {
   |		Written by CPdA-Omi.
   |
   |
-  |	v.1.3.1 - Unkafey     May 2025
+  |	v.1.3.2 - Deuxkafey     July 2025
   |
   #==============================================================================================#
 "
@@ -135,7 +135,7 @@ $(border)$(bold "AUTHOR")
 $(border)	Written by $(bold "$author").
 $(border)
 $(border)
-$(border)${version}     May 2025
+$(border)${version}     July 2025
 $(border)
   \e[1m#\e[33m==============================================================================================\e[39m#\e[0m
 " | less
