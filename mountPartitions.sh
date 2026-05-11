@@ -195,7 +195,7 @@ mountPartitions() {
 				forceMount=true
 				;;
 			*)
-				echo "\e[31mInvalid argument\e[0m"
+				echo -e "\e[31mInvalid argument\e[0m"
 				exit 1
 				;;
 		esac
@@ -212,10 +212,6 @@ mountPartitions() {
 	else
 		WindowsPartition=$(echo $SecondPartition | cut -d " " -f 1)
 		GamesPartition=$(echo $FirstPartition | cut -d " " -f 1)
-	fi
-
-	if [ -e 78 ]; then
-		rm 78
 	fi
 
 	sudo fdisk -l | grep "$partitionName"
